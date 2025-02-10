@@ -1,8 +1,9 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { themeProvider } from "style"
+import { ThemeProvider } from "styled-components";
 
 import { Capa } from "./pages/Capa";
+import { theme } from "./styles/theme.js";
 
 const router = createBrowserRouter ([
   {
@@ -13,6 +14,8 @@ const router = createBrowserRouter ([
 
 export function App() {
   return (
-    <RouterProvider router={router} />
+    <ThemeProvider theme={theme}>   
+       <RouterProvider router={router} />
+    </ThemeProvider>
   )
 }

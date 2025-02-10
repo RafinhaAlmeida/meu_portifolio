@@ -1,4 +1,4 @@
-import { TitleContainer, SaibaMais, FundoContainer, EuContainer } from "./Capa.styles";
+import { TitleContainer, SaibaMaisContainer, FundoContainer, EuContainer } from "./Capa.styles";
 
 import MinhaCara from "../images/MinhaCara"
 import FundoCapa from "../images/FundoCapa"
@@ -19,9 +19,9 @@ export function Capa() {
           Meu Portfólio como técnico em informática 
         </TitleContainer>
 
-      <SaibaMais>
+      <SaibaMaisContainer>
         <button>Saiba mais...</button>
-      </SaibaMais>
+      </SaibaMaisContainer>
     </div>
   
 )
