@@ -5,5 +5,6 @@ export const theme = {
     colorButtomActivate: "#9a52a6",
     colorSearchBar: "9a52a6",
     colorBoxTransparence: "#00002e",
+    white: "#ffff",
 
  }
